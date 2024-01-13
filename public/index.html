@@ -8,7 +8,17 @@
 </head>
 
 <body>
-    Hello World!
+    <input type="text" id="exam-id-input" placeholder="enter exam ID" autofocus="on">
+    <br>
+    <button onclick="go_to_exam_page()">Go to exam page -></button>
+
+    <script>
+        const go_to_exam_page = () => {
+            let examID = document.getElementById("exam-id-input");
+            examID = examID.value.trim();
+            window.location = `/exam/${examID}`;
+        }
+    </script>
 </body>
 
 </html>
