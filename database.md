@@ -30,7 +30,6 @@ MCQ Exam details
 | ----------- | ------ | ---------- | ----------- | ---------- | -------- | ------------- | ------------- | -------- |
 | String (PK) | String | Number     | String      | Number     | Number   | Array(String) | Array(String) | Number   |
 
-
 ## Questions (questions)
 
 | question_ID | exam_ID     | description         | options                          | correct_option | image_link | section |
@@ -39,7 +38,6 @@ MCQ Exam details
 
 ## Exam Attempt Record (exam_attempt_records)
 
-| attempt_ID | exam_ID    | user_ID    | answers                  | result                                                     | submit_time |
-| ---------- | ---------- | ---------- | ------------------------ | ---------------------------------------------------------- | ----------- |
-| String(PK) | String(FK) | String(FK) | Map(question_ID: Number) | MAP(section_name: MAP(correct: Number, Incorrect: Number)) | Number      |
-
+| attempt_ID | exam_ID    | user_ID    | answers                           | result                                                     | submit_time |
+| ---------- | ---------- | ---------- | --------------------------------- | ---------------------------------------------------------- | ----------- |
+| String(PK) | String(FK) | String(FK) | Map(question_ID: [Option, State]) | MAP(section_name: MAP(correct: Number, Incorrect: Number)) | Number      |
