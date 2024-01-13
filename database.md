@@ -10,9 +10,9 @@
 
 Store user data
 
-| user_ID     | name   | created_at | password |
-| ----------- | ------ | ---------- | -------- |
-| String (PK) | String | Number     | String   |
+| user_ID     | name   | created_at | password_hash |
+| ----------- | ------ | ---------- | ------------- |
+| String (PK) | String | Number     | String        |
 
 ## Session (sessions)
 
@@ -26,9 +26,9 @@ Sign in session data for user sign in
 
 MCQ Exam details
 
-| exam_ID     | name   | created_at | description | start_time | end_time | languages     | sections      |
-| ----------- | ------ | ---------- | ----------- | ---------- | -------- | ------------- | ------------- |
-| String (PK) | String | Number     | String      | Number     | Number   | Array(String) | Array(String) |
+| exam_ID     | name   | created_at | description | start_time | end_time | languages     | sections      | duration |
+| ----------- | ------ | ---------- | ----------- | ---------- | -------- | ------------- | ------------- | -------- |
+| String (PK) | String | Number     | String      | Number     | Number   | Array(String) | Array(String) | Number   |
 
 ## Questions (questions)
 
@@ -38,6 +38,6 @@ MCQ Exam details
 
 ## Exam Attempt Record (exam_attempt_records)
 
-| attempt_ID | exam_ID    | user_ID    | answers                  | result                                                     |
-| ---------- | ---------- | ---------- | ------------------------ | ---------------------------------------------------------- |
-| String(PK) | String(FK) | String(FK) | Map(question_ID: Number) | MAP(section_name: MAP(correct: Number, Incorrect: Number)) |
+| attempt_ID | exam_ID    | user_ID    | answers                  | result                                                     | submit_time |
+| ---------- | ---------- | ---------- | ------------------------ | ---------------------------------------------------------- | ----------- |
+| String(PK) | String(FK) | String(FK) | Map(question_ID: Number) | MAP(section_name: MAP(correct: Number, Incorrect: Number)) | Number      |

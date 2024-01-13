@@ -7,7 +7,7 @@ router.get("/login", (req, res) => {
 
 /**
  * @api {post} /exam/:exam_ID/login login
- * @apiGroup examUser
+ * @apiGroup User
  * @apiName loginExamUser
  *
  * @apiParam {String} user_ID Users unique ID.
