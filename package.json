@@ -6,7 +6,7 @@
    "scripts": {
       "dev": "node --watch server.js",
       "start": "node server.js",
-      "create API doc": "node config/apidoc.config.js",
+      "create_API_doc": "node config/apidoc.config.js",
       "Gen Default tables": "node src/services/db/createDefaultTables.service.js"
    },
    "repository": {
