@@ -1,0 +1,119 @@
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:42:15"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:50:20"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:51:18"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:51:18"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:51:39"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:51:39"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:52:16"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:52:16"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:53:19"}
+{"level":"warn","timestamp":"2024-01-13 12:53:19"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:53:19"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:53:33"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:53:33"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:54:42"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:54:42"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:57:37"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:57:37"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:57:49"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:57:49"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:58:07"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:58:07"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:58:23"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 12:58:23"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 12:59:24"}
+{"level":"info","message":"TABLE NAME:","timestamp":"2024-01-13 12:59:26"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:00:19"}
+{"level":"info","message":"TABLE NAME:","timestamp":"2024-01-13 13:00:20"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:00:48"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:01:26"}
+{"level":"info","message":"TABLE NAME:","timestamp":"2024-01-13 13:01:28"}
+{"level":"info","message":"TABLE ITEM COUNT:","timestamp":"2024-01-13 13:01:28"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:16:58"}
+{"level":"warn","message":"Table doesn't exist:","timestamp":"2024-01-13 13:16:59"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:18:16"}
+{"data":"user","level":"info","message":"TABLE NAME:","timestamp":"2024-01-13 13:18:17"}
+{"data":3,"level":"info","message":"TABLE ITEM COUNT:","timestamp":"2024-01-13 13:18:17"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:18:48"}
+{"level":"info","message":"","table name":"user","timestamp":"2024-01-13 13:18:49"}
+{"item count":3,"level":"info","message":"","timestamp":"2024-01-13 13:18:49"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:19:32"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"PL2HAT47V128RMV91BCSKOUIINVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:19:33"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"usera","timestamp":"2024-01-13 13:19:33"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:24:44"}
+{"level":"info","message":"doesTableExist func call","table_name":"user","timestamp":"2024-01-13 13:24:44"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"VE2GI48VRJ1RH9O6U88TDK0CPBVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:24:46"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"user","timestamp":"2024-01-13 13:24:46"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:27:10"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:27:10"}
+{"level":"warn","message":"Table creation failed","timestamp":"2024-01-13 13:27:12"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"2UIEOQ3I9DM6OB9TJR36KLJNRRVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazon.coral.validate#ValidationException","message":"One or more parameter values were invalid: ReadCapacityUnits and WriteCapacityUnits must both be specified when BillingMode is PROVISIONED","name":"ValidationException"},"level":"warn","message":"","timestamp":"2024-01-13 13:27:12"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:27:41"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:27:41"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:27:42"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:28:42"}
+{"level":"info","message":"deleteTable func call","table_name":"table_name","timestamp":"2024-01-13 13:28:42"}
+{"level":"info","message":"Table deleted","timestamp":"2024-01-13 13:28:43"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:33:52"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:33:52"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:33:53"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:37:47"}
+{"level":"info","message":"deleteTable func call","table_name":"users","timestamp":"2024-01-13 13:37:47"}
+{"level":"warn","message":"Table deletion failed","timestamp":"2024-01-13 13:37:48"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"CD68HQQ6SPEQBE4UJ11TLHQLSBVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:37:48"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:38:03"}
+{"level":"info","message":"deleteTable func call","table_name":"users","timestamp":"2024-01-13 13:38:03"}
+{"level":"warn","message":"Table deletion failed","timestamp":"2024-01-13 13:38:04"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"T7AEQ455KNA7AIN0C8O9PU6OOFVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:38:04"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:38:42"}
+{"level":"info","message":"deleteTable func call","table_name":"users","timestamp":"2024-01-13 13:38:42"}
+{"level":"info","message":"Table deleted","timestamp":"2024-01-13 13:38:43"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:38:55"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:38:55"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:38:57"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:47:05"}
+{"level":"info","message":"doesTableExist func call","table_name":"users","timestamp":"2024-01-13 13:47:05"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:47:05"}
+{"level":"info","message":"","table name":"users","timestamp":"2024-01-13 13:47:06"}
+{"item count":0,"level":"info","message":"","timestamp":"2024-01-13 13:47:06"}
+{"level":"warn","message":"Table creation failed","timestamp":"2024-01-13 13:47:06"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"IJH33J7BG2Q0COH8IOMF6BCN4JVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceInUseException","name":"ResourceInUseException"},"level":"warn","message":"","timestamp":"2024-01-13 13:47:06"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:48:19"}
+{"level":"info","message":"doesTableExist func call","table_name":"users","timestamp":"2024-01-13 13:48:19"}
+{"level":"info","message":"createTable func call","table_name":"users","timestamp":"2024-01-13 13:48:19"}
+{"level":"warn","message":"Table creation failed","timestamp":"2024-01-13 13:48:20"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"9155RDCAV3AR6O3UT7EE3AK5BRVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceInUseException","name":"ResourceInUseException"},"level":"warn","message":"","timestamp":"2024-01-13 13:48:20"}
+{"level":"info","message":"","table name":"users","timestamp":"2024-01-13 13:48:20"}
+{"item count":0,"level":"info","message":"","timestamp":"2024-01-13 13:48:20"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:52:46"}
+{"level":"info","message":"doesTableExist func call","table_name":"users","timestamp":"2024-01-13 13:52:46"}
+{"level":"info","message":"","table name":"users","timestamp":"2024-01-13 13:52:48"}
+{"item count":0,"level":"info","message":"","timestamp":"2024-01-13 13:52:48"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:53:15"}
+{"level":"info","message":"doesTableExist func call","table_name":"users","timestamp":"2024-01-13 13:53:15"}
+{"level":"info","message":"","table name":"users","timestamp":"2024-01-13 13:53:17"}
+{"item count":0,"level":"info","message":"","timestamp":"2024-01-13 13:53:17"}
+{"level":"info","message":"dynamo DB connected","timestamp":"2024-01-13 13:55:37"}
+{"level":"info","message":"doesTableExist func call","table_name":"users","timestamp":"2024-01-13 13:55:37"}
+{"level":"info","message":"","table name":"users","timestamp":"2024-01-13 13:55:38"}
+{"item count":0,"level":"info","message":"","timestamp":"2024-01-13 13:55:38"}
+{"level":"info","message":"doesTableExist func call","table_name":"sessions","timestamp":"2024-01-13 13:55:38"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"1M5A5FVNSR1L3LGNKB1UDI32S3VV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:55:39"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"sessions","timestamp":"2024-01-13 13:55:39"}
+{"level":"info","message":"createTable func call","table_name":"sessions","timestamp":"2024-01-13 13:55:39"}
+{"level":"info","message":"doesTableExist func call","table_name":"exams","timestamp":"2024-01-13 13:55:39"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:55:39"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"S45G6DLB6I8P8J6MKFPUR4RPVRVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:55:40"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"exams","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"createTable func call","table_name":"exams","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"doesTableExist func call","table_name":"questions","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:55:40"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"TCL18T6JP8L5JMNSTB1JHAMBN3VV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:55:40"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"questions","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"createTable func call","table_name":"questions","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"doesTableExist func call","table_name":"exam_attempt_records","timestamp":"2024-01-13 13:55:40"}
+{"error":{"$fault":"client","$metadata":{"attempts":1,"httpStatusCode":400,"requestId":"MAGHRNTVOIQ0CV593D3UG9251BVV4KQNSO5AEMVJF66Q9ASUAAJG","totalRetryDelay":0},"__type":"com.amazonaws.dynamodb.v20120810#ResourceNotFoundException","name":"ResourceNotFoundException"},"level":"warn","message":"","timestamp":"2024-01-13 13:55:40"}
+{"level":"warn","message":"Table doesn't exist:","table_name":"exam_attempt_records","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"createTable func call","table_name":"exam_attempt_records","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:55:40"}
+{"level":"info","message":"Table created","timestamp":"2024-01-13 13:55:41"}

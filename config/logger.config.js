@@ -1,4 +1,5 @@
 const winston = require("winston");
+const dotenv = require("dotenv").config();
 
 const logger = winston.createLogger({
    format: winston.format.combine(

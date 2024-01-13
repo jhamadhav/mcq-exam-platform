@@ -36,7 +36,7 @@ MCQ Exam details
 | ----------- | ----------- | ------------------- | -------------------------------- | -------------- | ---------- | ------- |
 | String (PK) | String (FK) | MAP(language: text) | MAP(Number: MAP(language: text)) | Number         | String     | String  |
 
-## Exam Attempt Record (exam_attempt_record)
+## Exam Attempt Record (exam_attempt_records)
 
 | attempt_ID | exam_ID    | user_ID    | answers                  | result                                                     |
 | ---------- | ---------- | ---------- | ------------------------ | ---------------------------------------------------------- |
