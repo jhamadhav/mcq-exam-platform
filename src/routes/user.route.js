@@ -25,7 +25,7 @@ let logger = require("./../../config/logger.config");
  *       "msg": "User not signed in"
  *     }
  */
-router.get("/user", (req, res) => {
+router.get("", (req, res) => {
    // TODO
    // 1. add middleware to check if user is logged in and if exam is valid
    // 2. fetch user details from DB

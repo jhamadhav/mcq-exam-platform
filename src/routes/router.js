@@ -14,6 +14,8 @@ router.get("/exam", (req, res) => {
 
 router.use("/exam/:exam_ID", require("./exam.route"));
 
+router.use("/user", require("./user.route"));
+
 router.get("*", (req, res) => {
    res.sendFile("404/404.html", { root: "./public/pages" });
 });

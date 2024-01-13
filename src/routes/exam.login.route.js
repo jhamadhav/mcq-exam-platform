@@ -6,7 +6,7 @@ router.get("/login", (req, res) => {
 });
 
 /**
- * @api {post} /exam/:exam_ID/login login
+ * @api {post} /exam/:exam_ID/login Exam login
  * @apiGroup User
  * @apiName loginExamUser
  *
