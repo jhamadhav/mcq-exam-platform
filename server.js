@@ -5,9 +5,9 @@ const app = express();
 const cors = require("cors");
 
 // parser
-app.use(require("./src/routes/router"));
-app.use(express.static("./public"));
 app.use(express.json());
+app.use(express.static("./public"));
+app.use(require("./src/routes/router"));
 app.use(cors());
 
 // listen for requests :)
