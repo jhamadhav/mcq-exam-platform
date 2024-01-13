@@ -1,0 +1,7 @@
+{
+   "name": "MCQ Exam Platform",
+   "version": "0.1.0",
+   "description": "Objective MCQ examination platform, create, attempt, and evaluate MCQ exams.",
+   "title": "mcq-exam-platform apis",
+   "url": "https://api.github.com/v1"
+}

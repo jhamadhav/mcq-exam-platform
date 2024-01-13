@@ -1,2 +1,3 @@
 # mcq-exam-platform
-Objective MCQ examination platform, create, attempt, and evalute MCQ exams.
+
+Objective MCQ examination platform, create, attempt, and evaluate MCQ exams.

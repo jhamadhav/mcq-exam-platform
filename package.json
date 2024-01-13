@@ -1,0 +1,42 @@
+{
+   "name": "mcq-exam-platform",
+   "version": "1.0.0",
+   "description": "Objective MCQ examination platform, create, attempt, and evaluate MCQ exams.",
+   "main": "server.js",
+   "scripts": {
+      "dev": "node --watch server.js",
+      "start": "node server.js",
+      "create API doc": "node config/apidoc.config.js",
+      "Gen Default tables": "node src/services/db/createDefaultTables.service.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jhamadhav/mcq-exam-platform.git"
+   },
+   "keywords": [
+      "MCQ",
+      "exam",
+      "platform"
+   ],
+   "author": "Madhav Jha",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/jhamadhav/mcq-exam-platform/issues"
+   },
+   "homepage": "https://github.com/jhamadhav/mcq-exam-platform#readme",
+   "dependencies": {
+      "@aws-sdk/client-dynamodb": "^3.451.0",
+      "@aws-sdk/client-s3": "^3.465.0",
+      "@aws-sdk/credential-providers": "^3.451.0",
+      "apidoc": "^1.2.0",
+      "bcryptjs": "^2.4.3",
+      "cookie": "^0.5.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "dynamodb-data-types": "^4.0.1",
+      "express": "^4.18.2",
+      "path": "^0.12.7",
+      "uuid": "^9.0.1",
+      "winston": "^3.11.0"
+   }
+}
